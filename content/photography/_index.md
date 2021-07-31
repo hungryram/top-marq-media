@@ -21,7 +21,7 @@ after = "/uploads/4.JPG"
 before = "/uploads/5.JPG"
 [[photos]]
 caption = "Trainer"
-category = ["model"]
+category = ["Model"]
 image = "https://res.cloudinary.com/hungryram19/image/upload/v1627764816/marqos-maldonado/topmarqmedia/0N3A1124_ixdnrt.jpg"
 [[photos]]
 caption = "Lauren Renteria"
