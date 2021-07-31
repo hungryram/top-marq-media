@@ -1,31 +1,41 @@
-{{ partial "global/cta" . }}
-<footer>
+<footer class="footer">
     <div class="uk-section">
         <div class="uk-container">
-            <div class="uk-child-width-expand@s uk-grid-large" uk-grid>
-                <div>
-                    <h1 class="uk-text-bold uk-text-large"><span class="uk-white">Landscaping <span class="accent">Tecpoyotl Inc.</span></span></h1>
-                    <p class="uk-light">{{ .Site.Data.appearance.footer.footer_bio }}</p>
+            <div class="uk-grid">
+                <div class="uk-width-1-2@s uk-grid-large footer-text">
+                    <div>
+                        <h1 class="uk-white uk-text-bold">Get in <span class="uk-text-weight-feather">Touch</span></h1>
+                        <div class="line"></div>
+                    </div>
+                    <div class="contact-info uk-margin-large-top">
+                        <p class="uk-white uk-margin-remove"><strong>Email</strong></p>
+                        <p class="uk-margin-remove"><a href="mailto:topmarqmedia@gmail.com">topmarqmedia@gmail.com</a></p>
+                        <br>
+                        <p class="uk-white uk-margin-remove"><strong>Phone</strong></p>
+                        <p class="uk-margin-remove"><a href="mailto:topmarqmedia@gmail.com">916-281-8917</a></p>
+                    </div>
                 </div>
-                <div>
-                    <h1 class="uk-text-bold uk-text-large uk-white">Contact</h1>
-                    <ul class="uk-list">
-                        <li><a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-light"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a></li>
-                        <li><a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-light"><span href="#" uk-icon="icon: phone" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 class="uk-text-bold uk-text-large uk-white">Quick Links</h1>
-                    <ul class="uk-list">
-                        {{ $currentPage := . }}
-                        {{ range .Site.Menus.footer }}
-                        <li><a href="{{ .URL | absURL }}" title="{{ .Title }}" class="uk-light">{{ .Name }}</a></li>
-                        {{ end }}
-                    </ul>
+                <div class="footer-form uk-width-expand">
+                    <form class="uk-grid-small" uk-grid>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input" type="text" placeholder="Name">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input" type="text" placeholder="Phone">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="Email">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <textarea class="uk-textarea" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="uk-width-1-1">
+                            <button class="uk-button uk-button-secondary">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="uk-section">
-                <hr>
+            <div class="uk-section uk-section-small">
                 <div class="uk-grid">
                     <div class="uk-width-1-2">
                         <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></p>

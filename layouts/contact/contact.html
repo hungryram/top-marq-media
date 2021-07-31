@@ -3,44 +3,17 @@
     <div class="uk-container">
         <div uk-grid>
             <div class="uk-width-1-2@s">
-                <h2 class="uk-text-bold">Get in touch</h2>
-                <p class="uk-text-light">The team at Landscaping Tecpoyotl is ready to help you with your landscaping needs and any inquiries you may have. Send us a message using the form and our team will reach out as soon as possible.</p>
+                <h5 class="uk-white uk-margin-remove">Contact Top Marq Media</h5>
+                <h2 class="uk-text-bold uk-white uk-margin-remove" style="font-size:3rem">Ready to start a project?</h2>
                 <p>{{ .Params.body }}</p>
-                <ul class="uk-list primary-svg">
-                    <li><a href="mailto:{{ .Site.Data.profile.contact_information.email }}" style="color: #222"><span href="#" uk-icon="icon: mail" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a></li>
-                    <li><a href="tel:{{ .Site.Data.profile.contact_information.phone }}" style="color: #222"><span href="#" uk-icon="icon: phone" class="uk-margin-small-right"></span><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
+                <ul class="uk-list contact-list">
+                    <li><a href="mailto:{{ .Site.Data.profile.contact_information.email }}" class="uk-white"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.email }}</span></a></li>
+                    <li><a href="tel:{{ .Site.Data.profile.contact_information.phone }}" class="uk-white"><span class="uk-text-middle">{{ .Site.Data.profile.contact_information.phone }}</span></a></li>
                   </ul>
                 {{ if .Site.Data.profile.social_media.instagram }}<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>{{ end }}
                 {{ if .Site.Data.profile.social_media.facebook }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
                 {{ if .Site.Data.profile.social_media.pinterest }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}
                 {{ if .Site.Data.profile.social_media.twitter }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="twitter"></a>{{ end }}
-            </div>
-            <div class="uk-width-1-2@s">
-                <div>
-                    <form action="/thank-you" class="uk-grid-small" uk-grid data-netlify="true" name="Contact Form" method="POST" data-netlify-recaptcha="true">
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Name" name="name">
-                        </div>
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Email" name="email">
-                        </div>
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Subject" name="subject">
-                        </div>
-                        <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="tel" placeholder="phone" name="phone">
-                        </div>
-                        <div class="uk-width-1-1">
-                            <textarea name="message" id="" cols="30" rows="8" class="uk-textarea" placeholder="Your message"></textarea>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <button class="uk-button uk-button-primary">Submit Message</button>
-                        </div>
-                        <div class="uk-width-1-1">
-                            <div data-netlify-recaptcha="true"></div>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </div>
