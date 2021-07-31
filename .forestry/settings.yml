@@ -10,11 +10,9 @@ sections:
 - type: document
   path: content/videos/_index.md
   label: Videos
-  match: "**/*"
 - type: document
   path: content/photography/_index.md
   label: Photos
-  match: "**/*"
 - type: document
   path: data/appearance.yaml
   label: Appearance
@@ -38,10 +36,10 @@ sections:
   label: About
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: marqos-maldonado/topmarqmedia
+public_path: https://res.cloudinary.com/hungryram19/image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
