@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="uk-section">
+    <div class="uk-container">
+        <div uk-grid>
+            <div class="uk-width-1-2@s">
+                <div>
+                    <img src="/uploads/mowing.jpg" alt="">
+                </div>
+            </div>
+            <div class="uk-width-1-2@s">
+                <div>
+                    <div>
+                        {{ .Content }}
+                    </div>
+                    <a href="/contact" class="uk-button uk-button-primary">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section" style="background:#F8F8F8">
+    <div class="uk-container">
+        <div class="uk-text-center primary-svg" uk-grid>
+            <div class="uk-width-1-3">
+                <div>
+                    <span uk-icon="icon: users;ratio: 2"></span>
+                    <h4>Quality Support</h4>
+                </div>
+            </div>
+            <div class="uk-width-1-3">
+                <div>
+                    <span uk-icon="icon: happy;ratio: 2"></span>
+                    <h4>Satisfaction Guaranteed</h4>
+                </div>
+            </div>
+            <div class="uk-width-1-3">
+                <div>
+                    <span uk-icon="icon: heart;ratio: 2"></span>
+                    <h4>Quality Guaranteed</h4>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{{ end }}

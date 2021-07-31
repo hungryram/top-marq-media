@@ -1,0 +1,7 @@
+baseURL = "https://www.landscapingtecpoyotl.com/"
+languageCode = "en-us"
+summaryLength = 15
+[[menu.footer]]
+name = "Home"
+url = "/"
+weight = 1

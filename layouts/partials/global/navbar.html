@@ -1,0 +1,46 @@
+<div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container uk-container-expand" style="padding-top:10px;padding-bottom:10px;">
+            <div uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="{{ .Site.BaseURL }}"><img src="/uploads/logo.png" alt="Landscaping Tecpoyotl Inc" width="100"></a>
+
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav uk-text-bold">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+{{/*  MOBILE MENU  */}}
+<div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; top: 400">
+    <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-padding-small uk-box-shadow-small">
+        <div class="uk-navbar-left">
+            <a href="{{ .Site.BaseURL }}"><img src="/uploads/logo.png" alt="Landscaping Tecpoyotl Inc" width="100"></a>
+        </div>
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#mobile-menu-slide" uk-toggle></a>
+        </div>
+    </nav>
+    </div>
+    <div id="mobile-menu-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
