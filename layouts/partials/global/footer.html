@@ -15,7 +15,7 @@
                         <p class="uk-margin-remove"><a href="mailto:topmarqmedia@gmail.com">916-281-8917</a></p>
                     </div>
                 </div>
-                <div class="footer-form uk-width-expand">
+                <div class="footer-form uk-width-expand@s uk-width-1-2@s">
                     <form class="uk-grid-small" uk-grid>
                         <div class="uk-width-1-2@s">
                             <input class="uk-input" type="text" placeholder="Name">
@@ -37,7 +37,7 @@
             </div>
             <div class="uk-section uk-section-small">
                 <div class="uk-grid">
-                    <div class="uk-width-1-2">
+                    <div class="uk-width-1-2@s">
                         <p class="uk-light uk-text-small">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></p>
                         <ul class="hr-legals uk-padding-remove">
                             {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
@@ -45,7 +45,7 @@
                             {{ end }}
                           </ul>
                     </div>
-                    <div class="uk-width-1-2 uk-text-right">
+                    <div class="uk-width-1-2@s uk-text-right">
                         {{ if .Site.Data.profile.social_media.instagram }}<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>{{ end }}
                         {{ if .Site.Data.profile.social_media.facebook }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>{{ end }}
                         {{ if .Site.Data.profile.social_media.pinterest }}<a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="pinterest"></a>{{ end }}

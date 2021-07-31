@@ -97,6 +97,10 @@ ul.uk-navbar-nav>li>a {
     text-transform: capitalize;
 }
 
+nav.uk-navbar.uk-navbar-container.uk-hidden\@s.uk-padding-small.uk-box-shadow-small.uk-navbar-sticky {
+    background: #111111;
+}
+
 /* HERO */
 
 div.hero-container {
