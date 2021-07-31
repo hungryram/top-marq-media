@@ -8,6 +8,10 @@ sections:
   path: data/profile.yaml
   label: Profile
 - type: document
+  path: content/videos/_index.md
+  label: Videos
+  match: "**/*"
+- type: document
   path: content/photography/_index.md
   label: Photos
   match: "**/*"
