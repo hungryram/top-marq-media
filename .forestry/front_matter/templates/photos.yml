@@ -24,3 +24,5 @@ fields:
     max: 
     labelField: 
   label: Photos
+pages:
+- content/photography/_index.md
