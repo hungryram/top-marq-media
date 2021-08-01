@@ -38,5 +38,10 @@ fields:
     max: 
     labelField: 
   label: Photos
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/photography/_index.md
