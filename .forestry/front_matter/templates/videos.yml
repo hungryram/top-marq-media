@@ -29,3 +29,5 @@ fields:
     max: 
     labelField: 
   label: Videos
+pages:
+- content/videos/_index.md
