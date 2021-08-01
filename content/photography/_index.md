@@ -1,6 +1,8 @@
 +++
-body = "Click the videos below to watch. Credits include NFL, Bellator, K Swiss, Monster Energy, Compass Real Estate, BWTB Podcast, Zayde Wolf, PSO Rite and more!"
-title = "Videos"
+body = "View professional photos from across the country and various businesses and talents!"
+meta_description = ""
+title = "Photography"
+title_tag = ""
 [[photos]]
 caption = "Building"
 category = ["Portrait"]
