@@ -3,6 +3,11 @@
 <div class="uk-light uk-background-cover uk-height-small uk-panel uk-flex uk-flex-center uk-flex-middle">
     <h1 class="uk-text-uppercase">{{ .Title }}</h1>
 </div>
+<div class="uk-text-center">
+    <div class="uk-container uk-container-small">
+        {{ .Params.body | markdownify }}
+    </div>
+</div>
 <main>
 {{ block "main" . }}
 

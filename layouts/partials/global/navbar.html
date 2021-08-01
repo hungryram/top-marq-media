@@ -3,7 +3,7 @@
         <div class="uk-container uk-container-expand" style="padding-top:10px;padding-bottom:10px;">
             <div uk-navbar>
                 <div class="uk-navbar-left">
-                    <a href="{{ .Site.BaseURL }}"><img src="/uploads/newlogo.png" alt="" width="200"></a>
+                    <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }} logo" width="200"></a>
 
                 </div>
                 <div class="uk-navbar-right">
@@ -12,8 +12,8 @@
                         <li><a href="/videos">Videos</a></li>
                         <li><a href="/photography">Photography</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="/contact">Ig</a></li>
-                        <li><a href="/contact">Fb</a></li>
+                        <li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">Ig</a></li>
+                        <li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">Fb</a></li>
                     </ul>
                 </div>
 
@@ -27,7 +27,7 @@
 <div uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive:uk-navbar-transparent; top: 400">
     <nav class="uk-navbar uk-navbar-container uk-hidden@s uk-padding-small uk-box-shadow-small">
         <div class="uk-navbar-left">
-            <a href="{{ .Site.BaseURL }}"><img src="/uploads/newlogo.png" alt="Landscaping Tecpoyotl Inc" width="200"></a>
+            <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Data.appearance.branding.logo }}" alt="{{ .Site.Data.profile.company_name }} logo" width="200"></a>
         </div>
         <div class="uk-navbar-right">
             <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#mobile-menu-slide" uk-toggle></a>
@@ -41,8 +41,8 @@
                 <li><a href="/videos">Videos</a></li>
                 <li><a href="/photography">Photography</a></li>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="/contact">Ig</a></li>
-                <li><a href="/contact">Fb</a></li>
+                <li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">Ig</a></li>
+                <li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">Fb</a></li>
             </ul>
         </div>
     </div>

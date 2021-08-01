@@ -1,0 +1,25 @@
+{{ $profile := $.Site.Data.profile }}
+{{ $social := $.Site.Data.profile.social_accounts }}
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "LocalBusiness",
+    "name" : "{{ $profile.company_name }}",
+    "description" : "{{ $profile.search_engine_optimization.meta_description }}",
+    "logo" : "{{ .Site.Data.appearance.branding.logo }}",
+    "image" : "{{ .Site.Data.appearance.branding.logo | absURL }}",
+    "telephone" : "{{ $profile.contact_information.phone }}",
+    "address" : {
+    "@type" : "PostalAddress",
+    {{- if $profile.contact_information.address }}"streetAddress" : "{{ $profile.contact_information.address }}", {{ end }}
+    {{- if $profile.contact_information.city }}"addressLocality" : "{{ $profile.contact_information.city }}", {{ end }}
+    {{- if $profile.contact_information.state }}"addressRegion" : "{{ $profile.contact_information.state }}", {{ end }}
+    {{- if $profile.contact_information.zip_code }}"postalCode" : "{{ $profile.contact_information.zip_code }}" {{ end }}
+    },
+    "url" : "{{ .Site.BaseURL }}",
+    "sameAs": [
+        "{{ .Site.Data.profile.social_media.facebook }}",
+        "{{ .Site.Data.profile.social_media.instagram }}"
+    ] 
+}
+</script>

@@ -9,10 +9,10 @@
                     </div>
                     <div class="contact-info uk-margin-large-top">
                         <p class="uk-white uk-margin-remove"><strong>Email</strong></p>
-                        <p class="uk-margin-remove"><a href="mailto:topmarqmedia@gmail.com">topmarqmedia@gmail.com</a></p>
+                        <p class="uk-margin-remove"><a href="mailto:{{ .Site.Data.profile.contact_information.email }}">{{ .Site.Data.profile.contact_information.email }}</a></p>
                         <br>
                         <p class="uk-white uk-margin-remove"><strong>Phone</strong></p>
-                        <p class="uk-margin-remove"><a href="mailto:topmarqmedia@gmail.com">916-281-8917</a></p>
+                        <p class="uk-margin-remove"><a href="tel:{{ .Site.Data.profile.contact_information.phone }}">{{ .Site.Data.profile.contact_information.phone }}</a></p>
                     </div>
                 </div>
                 <div class="footer-form uk-width-expand@s uk-width-1-2@s">
@@ -56,13 +56,6 @@
         </div>
 
     </div>
-    <script>
-        var tr = document.getElementsByTagName('canvas');
-
-        for(i=0;i<tr.length;i++){
-            if(i%2==0) tr[i].style.height = '400px';
-        }
-    </script>
 </footer>
 </body>
 </html>
