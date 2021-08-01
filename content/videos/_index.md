@@ -1,7 +1,7 @@
 +++
 body = "Click the videos below to watch. Credits include NFL, Bellator, K Swiss, Monster Energy, Compass Real Estate, BWTB Podcast, Zayde Wolf, PSO Rite and more!"
 meta_description = ""
-title = "Videos"
+title = "Filmmaking"
 title_tag = ""
 [[videos]]
 caption = "UFC Fighter"
