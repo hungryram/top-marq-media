@@ -16,7 +16,6 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact Page
-  match: "**/*"
 - type: document
   path: data/appearance.yaml
   label: Appearance
