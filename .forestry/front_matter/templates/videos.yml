@@ -43,5 +43,10 @@ fields:
     max: 
     labelField: 
   label: Videos
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/videos/_index.md
