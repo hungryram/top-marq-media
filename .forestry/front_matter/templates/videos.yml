@@ -10,11 +10,16 @@ fields:
     config:
       required: false
     label: Caption
-  - name: video
+  - name: video_cover
     type: file
     config:
       maxSize: 64
-    label: Video
+    label: Video Cover
+  - name: video_link
+    type: text
+    config:
+      required: false
+    label: Video Link
   - name: category
     type: tag_list
     default: []
