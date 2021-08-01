@@ -16,18 +16,19 @@
                     </div>
                 </div>
                 <div class="footer-form uk-width-expand@s uk-width-1-2@s">
-                    <form class="uk-grid-small" uk-grid>
+                    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid>
+                        <input name="bot-field" type="hidden" />
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Name">
+                            <input class="uk-input" type="text" placeholder="Name" name="Name">
                         </div>
                         <div class="uk-width-1-2@s">
-                            <input class="uk-input" type="text" placeholder="Phone">
+                            <input class="uk-input" type="text" placeholder="Phone" name="Phone">
                         </div>
                         <div class="uk-width-1-1">
-                            <input class="uk-input" type="text" placeholder="Email">
+                            <input class="uk-input" type="text" placeholder="Email" name="Email">
                         </div>
                         <div class="uk-width-1-1">
-                            <textarea class="uk-textarea" rows="5" placeholder="Your Message"></textarea>
+                            <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
                         </div>
                         <div class="uk-width-1-1">
                             <button class="uk-button uk-button-secondary">Submit</button>
