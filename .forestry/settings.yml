@@ -14,6 +14,10 @@ sections:
   path: content/photography/_index.md
   label: Photos
 - type: document
+  path: content/contact/_index.md
+  label: Contact Page
+  match: "**/*"
+- type: document
   path: data/appearance.yaml
   label: Appearance
 - type: directory
@@ -24,16 +28,6 @@ sections:
 - type: directory
   path: content/legal
   label: Legal
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: About
   create: all
   match: "**/*"
 upload_dir: marqos-maldonado/topmarqmedia
