@@ -191,6 +191,13 @@ ul.contact-list li {
     margin-right: 20px;
 }
 
+/* PHOTOGRAPHY PAGE */
+
+ul.uk-subnav-pill>.uk-active>a {
+    background: #6e6e6e;
+    color: #fff;
+}
+
 
 /* FOOTER */
 
