@@ -6,7 +6,7 @@ title_tag = ""
 [[videos]]
 caption = "Back Nine Bullies Golf Apparel "
 category = []
-video_cover = ""
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627888656/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.16.47_AM_rqctbd.png"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Back+Nine+Bullies.mp4"
 [[videos]]
 caption = "LPGA Golf Instructor Angella Then"
