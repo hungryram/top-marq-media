@@ -4,11 +4,6 @@ meta_description = ""
 title = "Filmmaking"
 title_tag = ""
 [[videos]]
-caption = "Zayde Wolf - Holy Water (Official Music Video)"
-category = []
-video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627889411/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.29.39_AM_o82fft.png"
-video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/zayde.mp4"
-[[videos]]
 caption = "LPGA Golf Instructor Angella Then"
 category = []
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627885769/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-01_at_11.29.09_PM_o8kqaa.png"
@@ -23,6 +18,16 @@ caption = "UFC Lightweight Michael Chandler"
 category = []
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627888956/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.22.03_AM_ixuwma.png"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Michael+Chandler+Outro+Final+Draft+with+my+logo.mp4"
+[[videos]]
+caption = "NFL Tight End Off Season Workout"
+category = []
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627890217/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.43.15_AM_vrrej9.png"
+video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Re+Edit+Jeremy+NFL+Workout+March+2020.mp4"
+[[videos]]
+caption = "Zayde Wolf - Holy Water (Official Music Video)"
+category = []
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627889889/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.37.05_AM_ldag7s.png"
+video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/zayde.mp4"
 [[videos]]
 caption = "PSO Rite Commercial Ad ,Featuring UFC Lightweight Michael Chandler"
 category = ["UFC"]
