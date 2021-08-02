@@ -12,8 +12,8 @@
                         <li><a href="/videos">Videos</a></li>
                         <li><a href="/photography">Photography</a></li>
                         <li><a href="/contact">Contact</a></li>
-                        <li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">Ig</a></li>
-                        <li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">Fb</a></li>
+                        {{ if .Site.Data.profile.social_media.instagram }}<li><a href="{{ .Site.Data.profile.social_media.instagram }}" target="_blank">Ig</a></li>{{ end }}
+                        {{ if .Site.Data.profile.social_media.facebook }}<li><a href="{{ .Site.Data.profile.social_media.facebook }}" target="_blank">Fb</a></li>{{ end }}
                     </ul>
                 </div>
 

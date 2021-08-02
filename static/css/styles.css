@@ -27,6 +27,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+div.baseof strong {
+    color: #fff;
+}
+
 .uk-text-weight-feather {
     font-weight: 100;
 }
@@ -148,6 +152,29 @@ div.line:before {
 div.intro-section {
     background: #111111;
 }
+
+div.intro-heading h2 {
+    color: #fff;
+}
+
+div.intro-heading h1,
+div.intro-heading h2,
+div.intro-heading h3,
+div.intro-heading h4,
+div.intro-heading h5,
+div.intro-heading h6 {
+    font-size: 2rem;
+}
+
+div.intro-heading h1 strong,
+div.intro-heading h2 strong,
+div.intro-heading h3 strong,
+div.intro-heading h4 strong,
+div.intro-heading h5 strong,
+div.intro-heading h6 strong {
+    text-decoration: underline;
+}
+
 
 
 /* HOME FEATURED */

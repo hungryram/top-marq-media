@@ -2,13 +2,14 @@
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-middle">
             <div class="uk-width-1-2@s uk-margin-medium-bottom">
-                <div>
-                    <h2 class="uk-text-normal uk-white">My <span class="text-underline uk-text-bold">creativity</span> gave me the dream. <br><br> —	My work ethic took me <span class="text-underline uk-text-bold">around the world.</span></h2>
+                <div class="intro-heading">
+                    {{ .Site.Data.appearance.home_about.heading | markdownify }}
                 </div>
             </div>
             <div class="uk-width-1-2@s uk-white">
-                <p>The best camera in the world won’t make your work good... You will need all the things that you can’t buy at the camera shop...</p>
-                <p>Work ethic, persistence, vision, practice, and more practice and more practice. I have some great cameras in my fleet but Sometimes it’s refreshing just using my iPhone to capture a moment for myself..</p>
+                <div>
+                    {{ .Site.Data.appearance.home_about.about | markdownify }}
+                </div>
             </div>
         </div>
     </div>
