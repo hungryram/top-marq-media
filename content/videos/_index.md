@@ -32,7 +32,7 @@ video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topm
 caption = "Zayde Wolf - Holy Water (Official Music Video)"
 category = []
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627889889/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.37.05_AM_ldag7s.png"
-video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/zayde.mp4"
+video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/holywater_db_edit_v03.MP4"
 [[videos]]
 caption = "PSO Rite Commercial Ad ,Featuring UFC Lightweight Michael Chandler"
 category = ["UFC"]
