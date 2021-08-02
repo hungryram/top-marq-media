@@ -4,6 +4,11 @@ meta_description = ""
 title = "Filmmaking"
 title_tag = ""
 [[videos]]
+caption = "NCAA D1 Golfer Luke Bartram"
+category = []
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627890593/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-02_at_12.49.17_AM_t6uyqq.png"
+video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Luke+Golf+Video.mp4"
+[[videos]]
 caption = "LPGA Golf Instructor Angella Then"
 category = []
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627885769/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-01_at_11.29.09_PM_o8kqaa.png"
