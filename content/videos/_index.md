@@ -20,7 +20,7 @@ video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627878700/m
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Sanford+Team+Video++%232+2.mp4"
 [[videos]]
 caption = "5 Seconds Of Summer - Red Desert ( Official Dance Video)"
-category = ["Dance"]
+category = ["Dance", "5 Seconds Of Summer", "5SOS"]
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627764816/marqos-maldonado/topmarqmedia/DSC01107_swmt4g.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Red+Desert+Final+Edit+2.mp4"
 
