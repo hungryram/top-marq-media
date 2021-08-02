@@ -22,6 +22,29 @@ fields:
       maxSize: 1
     label: Favicon
   label: Branding
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  label: Hero
 - name: footer
   type: field_group
   config: {}
