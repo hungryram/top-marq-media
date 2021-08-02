@@ -1,5 +1,5 @@
 +++
-body = "View professional photos from across the country and various businesses and talents!"
+body = ""
 meta_description = ""
 title = "Photography"
 title_tag = ""
