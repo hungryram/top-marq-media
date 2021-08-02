@@ -49,6 +49,15 @@ fields:
       schema:
         format: markdown
     label: About
+  - name: heading
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Heading
   label: Home About
 pages:
 - data/appearance.yaml
