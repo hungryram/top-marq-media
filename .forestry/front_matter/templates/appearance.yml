@@ -36,5 +36,19 @@ fields:
         format: markdown
     label: Footer Bio
   label: Footer
+- name: home_about
+  type: field_group
+  config: {}
+  fields:
+  - name: about
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: About
+  label: Home About
 pages:
 - data/appearance.yaml
