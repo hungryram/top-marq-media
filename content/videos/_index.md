@@ -4,9 +4,9 @@ meta_description = ""
 title = "Filmmaking"
 title_tag = ""
 [[videos]]
-caption = "UFC Fighter"
-category = ["UFC"]
-video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627784503/marqos-maldonado/topmarqmedia/michael_obxun3.jpg"
+caption = "PSO Rite Commercial Ad ,Featuring UFC Lightweight Michael Chandler"
+category = ["UFC", "MMA", "Mixed Martial Arts", "Michael Chandler", "Fitness", "Pro Rite"]
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627764815/marqos-maldonado/topmarqmedia/Screen_Shot_2020-03-05_at_9.41.57_PM_jl2il6.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Michael+Chandler+Pso+Rite+Workout+Color+Re+Edit.mp4"
 [[videos]]
 caption = "Stadium"
