@@ -21,7 +21,7 @@ video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topm
 [[videos]]
 caption = "Dancing Red Desert"
 category = ["Dance"]
-video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627783763/marqos-maldonado/topmarqmedia/reddesert_cbua4x.jpg"
+video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627764816/marqos-maldonado/topmarqmedia/DSC01107_swmt4g.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Red+Desert+Final+Edit+2.mp4"
 
 +++
