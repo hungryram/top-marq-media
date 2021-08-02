@@ -5,22 +5,22 @@ title = "Filmmaking"
 title_tag = ""
 [[videos]]
 caption = "PSO Rite Commercial Ad ,Featuring UFC Lightweight Michael Chandler"
-category = ["UFC", "MMA", "Mixed Martial Arts", "Michael Chandler", "Fitness", "Pro Rite"]
+category = ["UFC"]
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627764815/marqos-maldonado/topmarqmedia/Screen_Shot_2020-03-05_at_9.41.57_PM_jl2il6.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Michael+Chandler+Pso+Rite+Workout+Color+Re+Edit.mp4"
 [[videos]]
 caption = "AAA Baseball Team Sacramento River cats Stadium Tour"
-category = ["MLB", "Baseball", "Sacramento Rivercats", "Major league baseball"]
+category = ["MLB"]
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627783553/marqos-maldonado/topmarqmedia/rivercats_nvnvpi.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Rivercats+Video+Final+Draft+(+New+Logo).mp4"
 [[videos]]
 caption = "Sanford MMA Facility Walk Through Video"
-category = ["UFC", "Dana White", "Bellator MMA", "Mixed Martial Arts", "Fitness"]
+category = ["UFC"]
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627878700/marqos-maldonado/topmarqmedia/Screen_Shot_2021-08-01_at_9.31.11_PM_wewmuh.png"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Sanford+Team+Video++%232+2.mp4"
 [[videos]]
 caption = "5 Seconds Of Summer - Red Desert ( Official Dance Video)"
-category = ["Dance", "5 Seconds Of Summer", "5SOS"]
+category = ["Dance"]
 video_cover = "https://res.cloudinary.com/hungryram19/image/upload/v1627764816/marqos-maldonado/topmarqmedia/DSC01107_swmt4g.jpg"
 video_link = "https://hungryram.s3.us-west-1.amazonaws.com/marqos-maldonado/topmarqmedia/Red+Desert+Final+Edit+2.mp4"
 
