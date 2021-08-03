@@ -2,7 +2,7 @@
 {{ $social := $.Site.Data.profile.social_media }}
 <script type="application/ld+json">
 {
-    "@context" : "http://schema.org",
+    "@context" : "https://schema.org",
     "@type" : "Organization",
     "name" : "{{ $profile.company_name }}",
     "description" : "{{ $profile.search_engine_optimization.meta_description }}",
@@ -23,18 +23,21 @@
         {{- if and $social.facebook $social.instagram -}},{{ end }}
         {{ if $social.instagram }}"{{ $social.instagram }}"{{ end }}
     ] 
-},
-{
-    "@context": "https://schema.org/",
-    "@type": "Service",
-    "serviceType": "Videography and photography",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Top Marq Media"
-    },
-    "areaServed": {
-      "@type": "State",
-      "name": "California"
-    }
-  }
+}
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "serviceType": "Videography and photography",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Top Marq Media"
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "California"
+        }
+      }
 </script>
