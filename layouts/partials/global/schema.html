@@ -1,25 +1,40 @@
 {{ $profile := $.Site.Data.profile }}
-{{ $social := $.Site.Data.profile.social_accounts }}
+{{ $social := $.Site.Data.profile.social_media }}
 <script type="application/ld+json">
 {
     "@context" : "http://schema.org",
-    "@type" : "LocalBusiness",
+    "@type" : "Organization",
     "name" : "{{ $profile.company_name }}",
     "description" : "{{ $profile.search_engine_optimization.meta_description }}",
     "logo" : "{{ .Site.Data.appearance.branding.logo }}",
     "image" : "{{ .Site.Data.appearance.branding.logo | absURL }}",
     "telephone" : "{{ $profile.contact_information.phone }}",
+    "email" : "{{ $profile.contact_information.email }}",
     "address" : {
     "@type" : "PostalAddress",
-    {{- if $profile.contact_information.address }}"streetAddress" : "{{ $profile.contact_information.address }}", {{ end }}
-    {{- if $profile.contact_information.city }}"addressLocality" : "{{ $profile.contact_information.city }}", {{ end }}
-    {{- if $profile.contact_information.state }}"addressRegion" : "{{ $profile.contact_information.state }}", {{ end }}
-    {{- if $profile.contact_information.zip_code }}"postalCode" : "{{ $profile.contact_information.zip_code }}" {{ end }}
+    {{ if $profile.contact_information.address }}"streetAddress" : "{{ $profile.contact_information.address }}"{{ if and $profile.contact_information.address $profile.contact_information.city }},{{ end }}{{ end }}
+    {{ if $profile.contact_information.city }}"addressLocality" : "{{ $profile.contact_information.city }}"{{ if and $profile.contact_information.city $profile.contact_information.state }},{{ end }}{{ end }}
+    {{ if $profile.contact_information.state }}"addressRegion" : "{{ $profile.contact_information.state }}"{{ if and $profile.contact_information.state $profile.contact_information.zip_code }},{{ end }}{{ end }}
+    {{ if $profile.contact_information.zip_code }}"postalCode" : "{{ $profile.contact_information.zip_code }}" {{ end }}
     },
     "url" : "{{ .Site.BaseURL }}",
     "sameAs": [
-        "{{ .Site.Data.profile.social_media.facebook }}",
-        "{{ .Site.Data.profile.social_media.instagram }}"
+        {{ if $social.facebook }}"{{ $social.facebook }}"{{ end }}
+        {{- if and $social.facebook $social.instagram -}},{{ end }}
+        {{ if $social.instagram }}"{{ $social.instagram }}"{{ end }}
     ] 
-}
+},
+{
+    "@context": "https://schema.org/",
+    "@type": "Service",
+    "serviceType": "Videography and photography",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Top Marq Media"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "California"
+    }
+  }
 </script>
