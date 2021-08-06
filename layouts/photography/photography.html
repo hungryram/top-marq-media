@@ -43,7 +43,7 @@
                     <div class="uk-card uk-card-default uk-card-body uk-cover-container" uk-lightbox>
                         <a href="{{ .image }}" class="lightbox" data-caption="{{ .caption }}">
                             <canvas class="canvas" height="300"></canvas>
-                            <img src="{{ .image }}" alt="{{ .caption }}" uk-cover>
+                            <img data-src="{{ .image }}" alt="{{ .caption }}" uk-cover uk-img>
                         </a>
                     </div>
                 </li>
