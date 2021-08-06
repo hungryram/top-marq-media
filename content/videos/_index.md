@@ -1,6 +1,6 @@
 +++
 body = "Click the videos below to watch. \n\n**Film Credits include:**\n\n **NFL, K Swiss, Monster Energy, Bellator MMA, UFC Welterweight Champ Kamaru Usman, UFC Lightweight Michael Chandler, Cross Fit Champ Rich Froning, PSO RITE Commercial Ads, UFC Flyweight Dustin Ortiz, UFC Bantamweight Song Yadong, 49er TE George Kittle, UFC Welterweight Stephen Thompson, Compass Real Estate, Soethbys Real Estate, Bussin With The Boys Podcast , Zayde Wolf Madness Music Video, Zayde Wolf Holy Water Music Video, LPGA Golf Coach Angella Then , Back Nine Bullies Golf Apparel and more!**"
-meta_description = ""
+meta_description = "Top Marq Media has worked with UFC, NFL, and have filmed for top brands. Contact now for help in videography for your business."
 title = "Filmmaking"
 title_tag = ""
 [[videos]]
