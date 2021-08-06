@@ -14,7 +14,7 @@ image = "https://res.cloudinary.com/hungryram19/image/upload/v1627764817/marqos-
 [[photos]]
 caption = "Fitness Model"
 category = ["Modeling"]
-image = "https://res.cloudinary.com/hungryram19/image/upload/v1627764817/marqos-maldonado/topmarqmedia/0N3A2022_tvucnu.jpg"
+image = "https://res.cloudinary.com/hungryram19/image/upload/v1627764815/marqos-maldonado/topmarqmedia/0N3A3036_u4tq8s.jpg"
 [[photos]]
 caption = "Yellow Bridge"
 category = ["Portrait"]
