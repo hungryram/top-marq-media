@@ -1,6 +1,6 @@
 +++
 body = ""
-meta_description = "Photography in Orange County, California. Top Marq Media provides the best type of photography."
+meta_description = "Photographer in Orange County, California. Top Marq Media provides the best type of photography."
 title = "Photography"
 title_tag = "Top Marq Media - Photography"
 [[photos]]
